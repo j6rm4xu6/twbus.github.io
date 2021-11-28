@@ -1,0 +1,30 @@
+{
+  "menu": {
+    "NEWS": "最新消息",
+    "BUSACTION": "公車動態",
+    "ROUTERSEARCH": "路線查詢",
+    "NEARROUTER": "附近站點",
+    "OTHERINFO": "其他資訊"
+  },
+  "button": {
+    "Traditional": "中文",
+    "English": "英文"
+  },
+  "page": {
+    "undone": "頁面開發中，造成您的不便感到抱歉！！！"
+  },
+  "bus": {
+    "start": "起點",
+    "end": "終點",
+    "goTO": "去程",
+    "backTo": "回程",
+    "DetailedInformation": "詳細位子",
+    "cities": "縣市",
+    "PleaseSelectACity": "請選擇縣市",
+    "route": "路線",
+    "PleaseSearchForTheRoute": "請搜尋路線"
+  }
+
+}
+
+   

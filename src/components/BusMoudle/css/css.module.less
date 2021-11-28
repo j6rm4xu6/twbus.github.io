@@ -1,0 +1,156 @@
+.bus-module {
+  display: flex !important;
+  flex-wrap: wrap;
+  // align-items: flex-end;
+
+  .left-box {
+    width: 45%;
+    padding: 0 15px; 
+
+    .bus-select{
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      border-bottom: 2px solid #39A85C;
+     
+      .select-input{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.9rem;
+
+        label {
+          min-width: 3rem;
+          font-size: 16px;
+          font-weight: 700;
+        }
+
+        &.city{
+          .ui.fluid {
+            width: 175px;
+            height: 35px;
+          }
+        }
+
+        &.router{
+          .ui.fluid {
+            width: 320px;
+            height: 35px;
+          }
+        }
+      }
+    }
+
+    .bus-table {
+      margin-top: 50px;
+
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        
+        &:after {
+          display: none;
+        }
+
+        .item {
+          width: 49%;
+          border-radius: 6px 6px 0 0 !important;
+          background: #333333;
+          color: #fff;
+          font-size: 16px;
+          letter-spacing: 2.4px;
+          display: block;
+          text-align: center;
+          font-weight: 700 !important;
+
+          &.active, &:hover {
+            color: #fff;
+            background: #39A85C;
+            border-radius: 6px 6px 0 0 !important;
+          }
+        }
+      }
+
+      .ui.bottom.attached.segment {
+       
+        padding: 0;
+        border: 0;
+      }
+
+      .scroll-table {
+        overflow-y: scroll;
+        height: 300px;
+        margin-bottom: 15px;
+        border: 1px solid rgba(34, 36, 38, 0.15);
+
+        .table {
+          padding: 1px 0;
+        }
+      }
+
+      .table {
+        margin-bottom: 0;
+        tr > th:nth-of-type(1), tr > td:nth-of-type(1) {
+          width: 3.857rem;
+        }
+
+        tr, td {
+          font-size: 16px;
+          border-color: #FFF;
+        }
+
+        .table-header {
+          th {
+            background: #818181;
+            color: #FFF;
+            font-size: 16px;
+          }
+        }
+        
+        .table-body {
+          > tr:nth-of-type(odd) {
+              background: #EDF7F0;
+          }
+        }
+      }
+    }
+  }
+
+  .right-box {
+      width: 55%;
+      padding: 0 15px;
+      
+    .bus-map { 
+      height: 650px;
+
+      .leaflet-container {
+        height: 100%;
+
+        .leaflet-marker-icon {
+          border-radius: 50%;
+          width: 20px !important;
+          height: 20px !important;
+          display: flex !important;
+          justify-content: center;
+          align-items: center;
+          background: #FFF;
+          border: 4px solid #39A85C; 
+          margin-top: -10px !important;
+          margin-left: -10px !important;
+        }
+
+        .leaflet-tooltip {
+          background-color: #39a85c;
+          border: 1px solid #39a85c;
+          border-radius: 3px;
+          color: #fff;
+
+          &::before{
+            border-bottom-color: #39a85c;
+          }
+        }
+
+      }
+    }
+  }
+}

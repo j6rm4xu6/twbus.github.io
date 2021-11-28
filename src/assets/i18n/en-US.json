@@ -1,0 +1,29 @@
+{
+  "menu": {
+    "NEWS": "News",
+    "BUSACTION": "Bus Dynamics",
+    "ROUTERSEARCH": "Route Query",
+    "NEARROUTER": "Nearby Sites",
+    "OTHERINFO": "Other Information"
+  },
+  "button": { 
+    "Traditional": "Traditional",
+    "English": "English"
+  },
+  "page": {
+    "undone": "Sorry for the inconvenience caused to you during the development of the page! ! !"
+  },
+  "bus": {
+    "start": "Start",
+    "end": "End",
+    "goTO": "Outbound",
+    "backTo": "Return trip",
+    "DetailedInformation": "Detailed seat",
+    "cities": "Cities",
+    "PleaseSelectACity": "Please select a cities",
+    "route": "Route",
+    "PleaseSearchForTheRoute": "Please search for the route"
+  }
+}
+
+   
